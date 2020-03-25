@@ -1,0 +1,20 @@
+/* some general rules*/
+
+:root {
+  --bg-color:#bff3d9
+}
+
+html{
+  /*The width and height properties (and min/max properties) includes content, padding and border*/
+  box-sizing: border-box;
+
+  /*some rules for text and fonts*/
+  font-size: 20px;
+  text-shadow: 0 2px rgba(0,0,0,0.1);
+}
+
+*,
+*:before, /*The :before and :after are being used because we want to reset everything*/
+*:after {
+  box-sizing: inherit;
+}

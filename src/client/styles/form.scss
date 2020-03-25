@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Salsa|Fredoka+One&display=swap');
+
+.intro {
+	p {
+		font-size: 20px;
+		text-align: justify;
+    text-indent: 2%;
+    font-family: 'Salsa', cursive;
+	}
+	h2 {
+		margin-bottom: -10px;
+    text-decoration: underline;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 200;
+	}
+}
+hr {
+	width: 80vw;
+	height: 3px;
+	border: 0;
+	border-top: 4px;
+	background: linear-gradient(to right, rgb(199, 88, 110), rgb(185, 17, 143));
+	margin-bottom: 10px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(255, 228, 225,0.5);
+	border: rgba(0, 0, 0,.5);
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0,.5);
+	margin-bottom: 10px;
+}
+
+#name {
+	width: 75vw;
+	padding: 10px 10px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 4px solid rgb(196, 72, 72);
+	font-size: 15px;
+	font-family: 'Salsa', cursive;
+	font-weight: lighter;
+}
+input[type=submit] {
+	width: 75vw;
+	padding: 10px 0;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+	background-color: rgb(196, 72, 72);
+}

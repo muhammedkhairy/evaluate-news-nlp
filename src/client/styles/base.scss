@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Salsa|Fredoka+One&display=swap');
+
+body {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  width: 80vw;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+h2,p {
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 80vw;
+  font-size: 25px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 200;
+}

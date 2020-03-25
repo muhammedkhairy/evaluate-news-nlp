@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluate News with NLP</title>
+</head>
+  <body>
+    <header>
+      <div class="header_logo">Logo</div>
+      <div class="header_nav">navigation</div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>What is NLP?</h2>
+        <p>Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.</p>
+      </section>
+      <hr>
+      <div class="break_line"></div>
+      <section class="main_form">
+        <h2>What do you want to evaluate?</h2>
+        <form onsubmit="return Client.handleSubmit(event)">
+          <input id= "name" type="text" placeholder="Enter URL to analyze">
+          <input type="submit" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+        </form>
+      </section>
+      <section class="results">
+        <h2>The result</h2>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <div class="container">
+        <!--<p>This is a footer</p>-->
+        <a href="https://github.com" target="_blank"><img src="../images/GitHub.png" alt="Github" class="github"></a>
+        <a href = "https://facebook.com" target="_blank"><img src="../images/Facebook.png" alt="facebook" class="facebook"></a>
+        <a href="https://twitter.com" target="_blank"><img src="../images/Twitter.png" alt="twitter" class="twitter"></a>
+      </div>
+    </footer>
+  </body>
+</html>
