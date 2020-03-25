@@ -6,7 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["webpack", "jest", "express", "NLP"],
+  "keywords": [
+    "webpack",
+    "jest",
+    "express",
+    "NLP"
+  ],
   "author": "Muhammad M. Mustafa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.1.0",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
