@@ -5,12 +5,14 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  //to keep client-side code readable and debuggable
+  //to keep code readable and debuggable
   devtool: 'inline-source-map', //slowest but keep original source code
   entry: './src/client/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname,'dist')
+    path: path.resolve(__dirname,'dist'),
+    libraryTarget: 'umd',
+    library: 'Client'
   },
   module: {
     rules: [
