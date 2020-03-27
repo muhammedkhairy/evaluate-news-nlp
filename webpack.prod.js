@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
+  //to keep client-side code readable and debuggable
+  devtool: 'source-map', //slowest but keep original source code
   entry: './src/client/index.js',
   output: {
     filename: 'main.js',
@@ -19,6 +22,12 @@ module.exports = {
           'css-loader', // Translates CSS into CommonJS
           'sass-loader', // Compiles Sass to CSS
         ]
+      },
+      // use babel to handle js files
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
       },
       //exports HTML as string
       {
