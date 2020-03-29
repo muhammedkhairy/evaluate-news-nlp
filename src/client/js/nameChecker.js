@@ -5,7 +5,9 @@ function checkForName(inputText) {
   if (inputText == "") {
     alert("Please, Enter a url. Can't by empty");
   } else if (regex.test(inputText)) {
-    alert("Thanks, Please wait for Analysis");
+    //alert('Thanks, Please wait for analysis')
+    return (
+      alert('Thanks, Please wait for analysis'), true);
   } else {
     alert("Not a valid url");
   }

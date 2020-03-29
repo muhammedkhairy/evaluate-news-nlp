@@ -40,5 +40,15 @@
         <a href="https://twitter.com" target="_blank"><img src="../images/Twitter.png" alt="twitter" class="twitter"></a>
       </div>
     </footer>
+    <script>
+      // Check that service workers are supported
+      if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performance
+          window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js');
+          });
+      }
+  </script>
+  
   </body>
 </html>
