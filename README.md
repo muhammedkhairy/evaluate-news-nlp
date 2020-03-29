@@ -9,7 +9,7 @@
 
 ## Introduction
 ### What is NLP?
-In Wikipedia defenition :
+In Wikipedia definition :
 > Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
 
 ### The goal of the project
@@ -25,8 +25,8 @@ the goal of this project is to give practice with:
 * get your basic project setup and functioning.
 * the gitignore file must include node_modules and dist folder.
 * configure your project with Nodejs and npm.
-* install your dependencies and devdependences.
-* your dependences should include Express, Webpack.
+* install your dependencies and devdependencies.
+* your dependencies should include Express, Webpack.
 * you should have 3 scripts in your package.json:
   * start build to run Express server.
   * build-dev to run webpack develop mode.
@@ -47,7 +47,7 @@ the goal of this project is to give practice with:
     * index.js file must contain Aylien package.
 
 4. ### Environment Variables
-    * declare your API key but you should encrypt it as private key and your project will be publically available in Github.
+    * declare your API key but you should encrypt it as private key and your project will be publicly available in Github.
     * you can install dotenv package ``` npm install dotenv ``` which allows you to encrypt your private data.
     * create .env file and add your private key inside it.
     * you should add this .env file to .gitignore

@@ -22,12 +22,18 @@
 }
 
 #results {
+	padding: 10px;
 	p {
-		padding: 5px;
 		font-size: 20px;
 		text-align: justify;
-    font-family: 'Salsa', cursive;
-    margin-top: -10px;
-		margin-bottom: 20px;
+		font-family: 'Salsa', cursive;
+		width: 75vw;
+		margin-top: -15px;
+		margin-bottom: 0;
+	}
+	p span {
+		color: rgb(104, 7, 7);
+		font-weight: 200;
+		font-family: 'Fredoka One', cursive;
 	}
 }
