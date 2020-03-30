@@ -40,9 +40,10 @@ app.post('/sentiment_analysis', (request, response) => {
   textapi.sentiment({
     'url': request.body.textInput,
     'mode': 'document'
-  }, function(err, resp) {
-    if (err === null) {
-      //console.log(res);
+  }, function(error, resp) {
+    if (error) {
+      throw error;
+    } else {
       response.send(resp);
     }
   });
